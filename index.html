@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sridhar R | Java Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Sridhar R, a Java Full Stack Developer, DevOps Enthusiast, and AWS Cloud Learner.">
+    <!-- SEO & Open Graph Tags -->
+    <meta property="og:title" content="Sridhar R Portfolio">
+    <meta property="og:description" content="Java Full Stack Developer | DevOps | AWS">
+    <meta property="og:image" content="assets/images/Sridhar_profile_pic.jpeg">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="Java, Spring Boot, React, Docker, AWS, Linux, MySQL, GitHub, DevOps, Software Engineer">
+    <link rel="canonical" href="https://sridhar-portfolio.vercel.app">
+    <link rel="icon" href="assets/favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Loading Animation -->
+    <div id="loader" class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <header class="header glass-header" id="header">
+        <div class="nav-container container">
+            <a href="#home" class="logo">SRIDHAR <span>R</span></a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </nav>
+            <!-- Mobile Menu Toggle -->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-th-large"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-container container grid">
+                <div class="hero-data">
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="hero-name">SRIDHAR R</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Computer Science undergraduate passionate about building scalable web applications using Java, Spring Boot, React.js, Docker, Linux, and AWS.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="assets/resume/Sridhar_Resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <div class="social-links">
+                            <a href="https://github.com/Sridhar-R-hub" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/sridhar-r" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://sridhar-portfolio.vercel.app" target="_blank" class="social-link"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper">
+                    <!-- Profile Photo -->
+                    <div class="hero-profile">
+                        <img src="assets/images/Sridhar_profile_pic.jpeg" alt="Sridhar R" class="hero-img">
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down scroll-arrow"></i>
+            </a>
+        </section>
+
+        <!-- Other sections will go here -->
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container container">
+                <div class="about-data glass-card">
+                    <p class="about-description">
+                        Computer Science undergraduate with hands-on experience in Java Full Stack Development, DevOps, and Cloud Computing. Skilled in developing secure and scalable web applications using Java, Spring Boot, React.js, MySQL, Docker, and AWS. Experienced in designing RESTful APIs, deploying containerized applications on AWS EC2, and working with Linux, Git, and database management. Passionate about building scalable software solutions and continuously learning modern cloud and DevOps technologies.
+                    </p>
+                    
+                    <div class="about-info grid">
+                        <div class="about-box">
+                            <i class="fas fa-graduation-cap about-icon"></i>
+                            <h3 class="about-title">Education</h3>
+                            <span class="about-subtitle">B.E Computer Science</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fas fa-chart-line about-icon"></i>
+                            <h3 class="about-title">CGPA</h3>
+                            <span class="about-subtitle">8.90 / 10</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fas fa-briefcase about-icon"></i>
+                            <h3 class="about-title">Experience</h3>
+                            <span class="about-subtitle">4 Major Projects</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fas fa-code about-icon"></i>
+                            <h3 class="about-title">Hackathons</h3>
+                            <span class="about-subtitle">5+</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fas fa-certificate about-icon"></i>
+                            <h3 class="about-title">Certifications</h3>
+                            <span class="about-subtitle">4+</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fas fa-map-marker-alt about-icon"></i>
+                            <h3 class="about-title">Location</h3>
+                            <span class="about-subtitle">Bangalore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container container grid">
+                
+                <!-- Programming -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fab fa-java"></i><span>Java</span></div>
+                            <div class="skills-data"><i class="fas fa-database"></i><span>SQL</span></div>
+                            <div class="skills-data"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                            <div class="skills-data"><i class="fas fa-code"></i><span>TypeScript</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+                            <div class="skills-data"><i class="fas fa-cubes"></i><span>Spring MVC</span></div>
+                            <div class="skills-data"><i class="fas fa-shield-alt"></i><span>Spring Security</span></div>
+                            <div class="skills-data"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+                            <div class="skills-data"><i class="fas fa-database"></i><span>Hibernate</span></div>
+                            <div class="skills-data"><i class="fas fa-table"></i><span>JPA/JDBC</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-desktop"></i> Frontend</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fab fa-react"></i><span>React</span></div>
+                            <div class="skills-data"><i class="fas fa-atom"></i><span>Next.js</span></div>
+                            <div class="skills-data"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                            <div class="skills-data"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                            <div class="skills-data"><i class="fab fa-css3"></i><span>Tailwind</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-cloud"></i> Cloud</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fab fa-aws"></i><span>AWS EC2</span></div>
+                            <div class="skills-data"><i class="fas fa-shield-alt"></i><span>IAM</span></div>
+                            <div class="skills-data"><i class="fas fa-box"></i><span>S3</span></div>
+                            <div class="skills-data"><i class="fas fa-database"></i><span>RDS</span></div>
+                            <div class="skills-data"><i class="fas fa-eye"></i><span>CloudWatch</span></div>
+                            <div class="skills-data"><i class="fas fa-envelope"></i><span>SNS/VPC</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-tools"></i> DevOps</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fab fa-docker"></i><span>Docker</span></div>
+                            <div class="skills-data"><i class="fab fa-linux"></i><span>Linux</span></div>
+                            <div class="skills-data"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                            <div class="skills-data"><i class="fab fa-github"></i><span>GitHub</span></div>
+                            <div class="skills-data"><i class="fas fa-server"></i><span>Nginx</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI -->
+                <div class="skills-content glass-card">
+                    <h3 class="skills-title"><i class="fas fa-brain"></i> AI & Data</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data"><i class="fas fa-robot"></i><span>TensorFlow</span></div>
+                            <div class="skills-data"><i class="fas fa-eye"></i><span>OpenCV</span></div>
+                            <div class="skills-data"><i class="fas fa-microchip"></i><span>Gemini API</span></div>
+                            <div class="skills-data"><i class="fas fa-fire"></i><span>Firebase</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- GitHub Statistics Section -->
+        <section class="github-stats section" id="github">
+            <h2 class="section-title">GitHub Statistics</h2>
+            <div class="github-container container grid">
+                <div class="github-card glass-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=Sridhar-R-hub&show_icons=true&theme=transparent&title_color=3b82f6&text_color=8b5cf6&icon_color=3b82f6&hide_border=true" alt="GitHub Stats" class="github-img">
+                </div>
+                <div class="github-card glass-card">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sridhar-R-hub&theme=transparent&hide_border=true&fire=3b82f6&ring=8b5cf6&currStreakLabel=8b5cf6" alt="GitHub Streak" class="github-img">
+                </div>
+                <div class="github-card glass-card" style="grid-column: 1 / -1; display: flex; justify-content: center;">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sridhar-R-hub&layout=compact&theme=transparent&title_color=3b82f6&text_color=8b5cf6&hide_border=true" alt="Top Languages" class="github-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container container grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder" style="background: linear-gradient(135deg, #2563eb, #8b5cf6);">
+                            <i class="fas fa-leaf fa-3x" style="color: white; opacity: 0.8;"></i>
+                        </div>
+                    </div>
+                    <div class="project-data">
+                        <h3 class="project-title">Sampoorna Krishi</h3>
+                        <p class="project-description">
+                            AI-Driven FinTech Platform for Indian Farmers. Features secure authentication, role-based dashboards, and Gemini AI integration for agricultural insights.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Firebase</span>
+                            <span>Gemini AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Sridhar-R-hub" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="javascript:void(0)" class="btn btn-outline" style="cursor: default;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0ea5e9, #3b82f6);">
+                            <i class="fas fa-users-cog fa-3x" style="color: white; opacity: 0.8;"></i>
+                        </div>
+                    </div>
+                    <div class="project-data">
+                        <h3 class="project-title">Employee Management System</h3>
+                        <p class="project-description">
+                            Full-stack EMS with JWT authentication and role-based access control. Implements CRUD, pagination, search, and dashboard analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>React.js</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Sridhar-R-hub" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="javascript:void(0)" class="btn btn-outline" style="cursor: default;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+                            <i class="fas fa-server fa-3x" style="color: white; opacity: 0.8;"></i>
+                        </div>
+                    </div>
+                    <div class="project-data">
+                        <h3 class="project-title">Dockerized Nginx on AWS</h3>
+                        <p class="project-description">
+                            Containerized and deployed an Nginx web server using Docker on AWS EC2. Configured Docker networking and Linux server deployment.
+                        </p>
+                        <div class="project-tech">
+                            <span>Docker</span>
+                            <span>AWS EC2</span>
+                            <span>Linux</span>
+                            <span>Nginx</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Sridhar-R-hub" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="javascript:void(0)" class="btn btn-outline" style="cursor: default;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder" style="background: linear-gradient(135deg, #10b981, #059669);">
+                            <i class="fas fa-stethoscope fa-3x" style="color: white; opacity: 0.8;"></i>
+                        </div>
+                    </div>
+                    <div class="project-data">
+                        <h3 class="project-title">Disease Detection System</h3>
+                        <p class="project-description">
+                            CNN-based disease detection model with ~94% accuracy. Includes a medicine recommendation module via FastAPI.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Sridhar-R-hub" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="javascript:void(0)" class="btn btn-outline" style="cursor: default;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <h2 class="section-title">Journey</h2>
+            <div class="achievements-container container">
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Education</h3>
+                        <p class="timeline-text">B.E in Computer Science - 8.90 CGPA</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Projects</h3>
+                        <p class="timeline-text">Developed 4+ scalable full-stack applications.</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Hackathons</h3>
+                        <p class="timeline-text">Active participant in CellVerse, RBIH Codethon & more.</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Current Learning</h3>
+                        <p class="timeline-text">Advanced AWS Cloud and DevOps Practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-container container grid">
+                <div class="cert-card glass-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3 class="cert-title">TCS iON NQT</h3>
+                    <p class="cert-text">Cognitive Score: 1456.08 (80.89%)</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3 class="cert-title">AI for All</h3>
+                    <p class="cert-text">Professional Program Certification</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3 class="cert-title">AI for All</h3>
+                    <p class="cert-text">Basic Certification</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3 class="cert-title">VTU</h3>
+                    <p class="cert-text">Skill Enhancement Courses</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container container grid">
+                <div class="contact-info glass-card">
+                    <h3 class="contact-title">Let's Connect</h3>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4 class="contact-subtitle">Email</h4>
+                                <a href="mailto:Sridharofficial107@gmail.com" class="contact-text">Sridharofficial107@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4 class="contact-subtitle">Phone</h4>
+                                <span class="contact-text">+91 9945539680</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin-in"></i>
+                            <div>
+                                <h4 class="contact-subtitle">LinkedIn</h4>
+                                <a href="https://linkedin.com/in/sridhar-r" target="_blank" class="contact-text">Connect on LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4 class="contact-subtitle">GitHub</h4>
+                                <a href="https://github.com/Sridhar-R-hub" target="_blank" class="contact-text">Sridhar-R-hub</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 class="contact-subtitle">Location</h4>
+                                <span class="contact-text">Bangalore, Karnataka, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ensure you replace YOUR_FORM_ID with your actual Formspree ID -->
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form glass-card">
+                    <div class="contact-inputs">
+                        <div class="contact-content">
+                            <input type="text" name="name" placeholder=" " class="contact-input" required>
+                            <label class="contact-label">Name</label>
+                        </div>
+                        <div class="contact-content">
+                            <input type="email" name="email" placeholder=" " class="contact-input" required>
+                            <label class="contact-label">Email</label>
+                        </div>
+                    </div>
+                    <div class="contact-content">
+                        <input type="text" name="subject" placeholder=" " class="contact-input" required>
+                        <label class="contact-label">Subject</label>
+                    </div>
+                    <div class="contact-content contact-area">
+                        <textarea name="message" placeholder=" " class="contact-input" required></textarea>
+                        <label class="contact-label">Message</label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glass-card" style="border-radius: 0; border-bottom: none; border-left: none; border-right: none;">
+        <div class="footer-container container">
+            <h1 class="footer-title">SRIDHAR R</h1>
+            <p class="footer-subtitle">Java Full Stack Developer</p>
+            
+            <ul class="footer-links">
+                <li><a href="#about" class="footer-link">About</a></li>
+                <li><a href="#projects" class="footer-link">Projects</a></li>
+                <li><a href="#skills" class="footer-link">Skills</a></li>
+            </ul>
+            
+            <div class="footer-social">
+                <a href="https://github.com/Sridhar-R-hub" target="_blank" class="footer-social-link"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/sridhar-r" target="_blank" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            
+            <span class="footer-copy">&#169; 2026 Sridhar R. Designed & Developed by SRIDHAR R.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
